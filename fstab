@@ -1,0 +1,10 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# DEVICE DETAILS: /dev/sda5 UUID=3d127143-a47d-43d5-88c6-7ec5ef618fa9 LABEL=alejoroot
+# DEVICE DETAILS: /dev/sda6 UUID=752143bf-6e21-4727-b231-f232e3b05462 LABEL=alejohome
+# DEVICE DETAILS: /dev/sda9 UUID=5a6e5a62-0b8b-4759-a752-62e22e7fcd93 LABEL=alejoswap
+UUID=3d127143-a47d-43d5-88c6-7ec5ef618fa9 / ext4 defaults 0 1
+UUID=752143bf-6e21-4727-b231-f232e3b05462 /home ext4 defaults 0 1
+UUID=5a6e5a62-0b8b-4759-a752-62e22e7fcd93 swap swap defaults 0 0
